@@ -2,4 +2,55 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Arial Black";
+    color: rgb(25, 25, 25);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(242, 242, 246);
+}
+
+input {
+    display: none;
+}
+
+.flip_book {
+    position: relative;
+    width: 298px;
+    height: 420px;
+}
+
+.front_cover, .back_cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5px 5px;
+    background-image: url(./images/flip_book_edge_shading.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(220, 20, 60);
+    box-shadow: 0 0 5px 0 rgb(25, 25, 25, 0.2);
+}
+
+.front_cover {
+    position: absolute;
+    cursor: pointer;
+}
+
+.title {
+    margin-bottom: 175px;
+}
+
+.back_cover {
+    position: relative;
+    z-index: -1;
 }
