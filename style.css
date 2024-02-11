@@ -112,6 +112,22 @@ input {
     z-index: 8;
 }
 
+#page2 {
+    z-index: 5;
+}
+
+#page3 {
+    z-index: 4;
+}
+
+#page4 {
+    z-index: 3;
+}
+
+#page5 {
+    z-index: 2;
+}
+
 #cover_checkbox:checked~#flip_book {
     transform: translateX(144px)
 }
@@ -131,4 +147,24 @@ input {
 #page1_checkbox:checked~#flip_book #page1 {
     transform: rotateY(-180deg);
     z-index: 2;
+}
+
+#page2_checkbox:checked~#flip_book #page2 {
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
+
+#page3_checkbox:checked~#flip_book #page3 {
+    transform: rotateY(-180deg);
+    z-index: 4;
+}
+
+#page4_checkbox:checked~#flip_book #page4 {
+    transform: rotateY(-180deg);
+    z-index: 5;
+}
+
+#page5_checkbox:checked~#flip_book #page5 {
+    transform: rotateY(-180deg);
+    z-index: 6;
 }
