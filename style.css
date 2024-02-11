@@ -20,10 +20,12 @@ input {
     display: none;
 }
 
-.flip_book {
+#flip_book {
     position: relative;
     width: 298px;
     height: 420px;
+    transition-duration: 1s;
+    perspective: 2000px;
 }
 
 .front_cover, .back_cover {
@@ -38,19 +40,39 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(220, 20, 60);
-    box-shadow: 0 0 5px 0 rgb(25, 25, 25, 0.2);
+    box-shadow: 0 0 5px 0 rgb(25, 25, 25, 0.25);
 }
 
 .front_cover {
     position: absolute;
     cursor: pointer;
+    z-index: 99;
+    transform-origin: center left;
+    transition: transform 0.5s;
 }
 
-.title {
-    margin-bottom: 175px;
+.front_cover label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
 
 .back_cover {
     position: relative;
     z-index: -1;
+}
+
+#cover_checkbox:checked~#flip_book {
+    transform: translateX(144px)
+}
+
+#cover_checkbox:checked~#flip_book .front_cover {
+    transform: rotateY(-180deg);
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    z-index: 1;
+}
+
+#cover_checkbox:checked~#flip_book .title {
+    display: none;
 }
