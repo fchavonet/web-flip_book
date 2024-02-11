@@ -108,6 +108,26 @@ input {
     position: absolute;
     width: 288px;
     height: 400px;
+    z-index: 98;
+}
+
+.front_content {
+    position: absolute;
+    top: 1px;
+    width: 287px;
+    height: 398px;
+    border-radius: 0 5px 5px 0;
+    z-index: 97;
+}
+
+.back_content {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 287px;
+    height: 398px;
+    border-radius: 5px 0 0 5px;
+    z-index: 97;
 }
 
 .back_cover {
