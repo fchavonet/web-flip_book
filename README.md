@@ -45,10 +45,9 @@ However, I intend to make the whole flip book dynamic with JavaScript in the fut
 
 | FILE             | DESCRIPTION                                         |
 | :--------------: | --------------------------------------------------- |
-| `images`         | Containing images used in the project.              |
-| `resources`      | Contains additional materials for the README file.  |
-| `flip_book.html` | Main HTML file for the flip book.                   |
+| `resources`      | Contains the images required for the landing page.  |
 | `README.md`      | The readme file you are currently reading ;).       |
+| `index.html`     | Main HTML file for the flip book.                   |
 | `style.css`      | CSS stylesheet for the flip book layout.            |
 
 ## 💻 <span id="installation">Installation</span>
@@ -61,9 +60,9 @@ However, I intend to make the whole flip book dynamic with JavaScript in the fut
 git clone https://github.com/fchavonet/web-flip_book.git
 ```
 
-2. Open the `flip_book.html` file in a web browser.
+2. Open the folder in your favorite IDE.
 
-3. Click on the book cover to open it and then navigate between pages by clicking on the front or back page (next or prev).
+To see it in action, visit <a href="https://fchavonet.github.io/web-flip_book/">the flip book page online</a>.
 
 <p align="center">
 <img src="./resources/screenshots.png">
