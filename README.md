@@ -62,7 +62,7 @@ git clone https://github.com/fchavonet/web-flip_book.git
 
 2. Open the folder in your favorite IDE.
 
-To see it in action, visit <a href="https://fchavonet.github.io/web-flip_book/">the flip book page online</a>.
+To see it in action, visit <a href="https://fchavonet.github.io/web-flip_book/" target="_blank">the flip book page online</a>.
 
 <p align="center">
 <img src="./resources/screenshots.png">
