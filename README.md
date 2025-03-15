@@ -93,7 +93,7 @@ You can also test the web application online by clicking [here](https://fchavone
 
 ## ♥️ <span id="thanks">Thanks</span>
 
-A big thank you to my friends Pierre and Yoann, always available to test and provide feedback on my projects.
+- A big thank you to my friends Pierre and Yoann, always available to test and provide feedback on my projects.
 
 ## 👷 <span id="authors">Authors</span>
 
