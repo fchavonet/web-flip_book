@@ -120,7 +120,7 @@ input {
     justify-content: center;
     align-items: center;
     border-radius: 2.5px 5px 5px 2.5px;
-    background-image: url(./images/flip_book_edge_shading.png);
+    background-image: url(./assets/images/flip_book_edge_shading.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
