@@ -10,7 +10,10 @@
 /* VARIABLES */
 :root {
     --dark-color: rgb(2, 4, 8);
+    --dark-hover: rgba(255, 255, 255, 0.1);
+
     --light-color: rgb(245, 245, 245);
+    --light-hover: rgba(0, 0, 0, 0.1);
 }
 
 /* GENERAL */
@@ -23,7 +26,7 @@ body {
     align-items: center;
     font-family: monospace, sans-serif;
     font-size: 0.5rem;
-    transition: all 0.3s;
+    transition: background-color 0.3s;
 }
 
 body.light-mode {
@@ -31,9 +34,17 @@ body.light-mode {
     background-color: var(--light-color)
 }
 
+body.light-mode #toggle-mode-btn:hover {
+    background-color: var(--light-hover);
+}
+
 body.dark-mode {
     color: var(--light-color);
     background-color: var(--dark-color);
+}
+
+body.dark-mode #toggle-mode-btn:hover {
+    background-color: var(--dark-hover);
 }
 
 a {
@@ -47,8 +58,8 @@ input {
 
 /* MAIN */
 #toggle-mode-btn {
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -58,17 +69,21 @@ input {
     align-items: center;
     font-size: 1rem;
     border: none;
+    border-radius: 0.5rem;
     background-color: transparent;
+    transition: background-color 0.3s;
     cursor: pointer;
 }
 
 #portfolio-link {
+    padding-right: 0.5rem;
     position: fixed;
     right: 1rem;
     bottom: 1rem;
+    font-size: 0.75rem;
 }
 
-#github-stars {
+#github-link {
     position: fixed;
     bottom: 1rem;
     left: 1rem;

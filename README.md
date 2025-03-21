@@ -5,24 +5,24 @@
 ## 🔖 Table of contents
 
 <details>
-        <summary>
-            CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-        <br>
-        🔧 <a href="#whats-next">What's next?</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    <summary>
+        CLICK TO ENLARGE 😇
+    </summary>
+    📄 <a href="#description">Description</a>
+    <br>
+    🎓 <a href="#objectives">Objectives</a>
+    <br>
+    🔨 <a href="#tech-stack">Tech stack</a>
+    <br>
+    📂 <a href="#files-description">Files description</a>
+    <br>
+    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    🔧 <a href="#whats-next">What's next?</a>
+    <br>
+    ♥️ <a href="#thanks">Thanks</a>
+    <br>
+    👷 <a href="#authors">Authors</a>
 </details>
 
 ## 📄 <span id="description">Description</span>
