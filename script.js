@@ -29,7 +29,7 @@ function applyMode(mode) {
 	if (mode === "dark-mode") {
 		// Set dark mode styles.
 		toggleModeBtn.style.color = "rgb(245, 245, 245)";
-		toggleModeBtn.innerHTML = '<i class="ri-sun-line"></i>';
+		toggleModeBtn.innerHTML = '<i class="bi bi-sun-fill"></i>';
 
 		portfolioLink.style.color = "rgb(245, 245, 245)";
 
@@ -37,7 +37,7 @@ function applyMode(mode) {
 	} else {
 		// Set light mode styles.
 		toggleModeBtn.style.color = "rgb(2, 4, 8)";
-		toggleModeBtn.innerHTML = '<i class="ri-moon-line"></i>';
+		toggleModeBtn.innerHTML = '<i class="bi bi-moon-stars-fill"></i>';
 
 		portfolioLink.style.color = "rgb(2, 4, 8)";
 
